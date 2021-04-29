@@ -1,0 +1,23 @@
+Chapter 9 Questions
+
+1. Relative path is relative to the current working directory
+
+2. Absolute path starts with the drive in windows or / in posix
+
+3. C:\\Users\\Al
+
+4. 'C:/Users' / 'Al' will evaluate to a TypeError
+
+5. os.getcwd() gets the current working directory, os.chdir() changes the working directory.
+
+6. . is the current folder, .. is move up a level (parent folder)
+
+7. C:\bacon\eggs\spam.txt, dir is C:\bacon\eggs\, base is spam.txt
+
+8. 'r', 'w', 'a'
+
+9. File will be overwritten if an existing file is opened in write mode.
+
+10. read returns a string, readlines returns a list of strings, each \n adds a new entry to the list.
+
+11. A shelf value resembles a dictionary. 

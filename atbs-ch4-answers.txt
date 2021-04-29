@@ -1,0 +1,52 @@
+1. What is []
+[] are square brackets which indicate in Python a list datatype.
+A: Empty list value
+
+2. Assign value 'hello' as the third value in a list stored in a variable named spam = [2, 4, 6, 8, 10].
+Using spam.insert(2, 'hello')
+A: replace, instead of add - spam[2] = 'hello'
+
+spam = ['a', 'b', 'c', 'd']
+
+3. What does spam[int(int('3' * 2) // 11)] evaluate to?
+Breaking the expression down:
+
+spam[index]
+index = int(int('3' * 2) // 11)
+int('3' * 2)
+'3' * 2 = 33 => string multiplied
+int('33') // 11 = 33/11 = 3
+
+spam[3] = 'd' 
+
+4. spam[-1] evaluates to 'd'
+
+5. spam [:2] evaluates to a list slicing operation, giving the list: ['a', 'b', 'c']
+A: spam[:2] evaluates to ['a', 'b']
+
+bacon = [3.14, 'cat', 11, 'cat', True]
+
+6. bacon.index('cat') evaluates to 1
+
+7. bacon.append(99) modifies bacon to: [3.14, 'cat', 11, 'cat', True, 99]
+
+8. bacon.remove('cat'): [3.14, 11, 'cat', True]
+
+9. Operator for lists concatenation is +
+List replication is *
+
+10. append() adds values at the end of the list, insert() takes an additonal argument where the value is inserted into the list.
+
+11. list.remove(value) and del list[index]
+
+12. Some ways list values are similar to string values is that lists and strings can be concatenated. Strings are similar in that they can be considered a list of single chars (although, I think they are a different data type and are immutable). Strings and lists can be sliced, iterated over with a for loop, used with len, in, and, not operators.
+
+13. Lists are mutable and are represented with []. Tuples are immutable and created using ().
+
+14. To create a tuple with 42 in it, instantiate as: (42,)
+
+15. use tuple([list]) to get the tuple form of a list. Use list((tuple)) to get the list form of a tuple.
+
+16. Variables contain references to where the data is held.
+
+17. copy.copy is a shallow copy. Any lists within the first level list will not be copied. copy.deepcopy copies lists within lists as well.

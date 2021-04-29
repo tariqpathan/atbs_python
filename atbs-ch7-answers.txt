@@ -1,0 +1,50 @@
+Chapter 7 Questions
+1. The function that creates regex objects is re.compile()
+
+2. Raw strings are used when creating Regex objects because they are easier to read and understand - backslashes do not have to be escaped
+
+3. The search() method returns indexes of any matches
+A: Search method returns match objects
+
+4. To get the actual strings from a pattern match, you use .group() method
+
+5. For the regex r'(\d\d\d)-(\d\d\d-\d\d\d\d)' 
+Group 0 covers the initial 3 digits, Group 1 the next 7 digits with a dash between digits 3 and 4.
+A: Group 0 is the entire match. Group 1 is the first set of brackets and group 2 is the second set of brackets.
+
+6. To match brackets or full stops, you would escape them.
+
+7. If a regex has no groups, a list of strings is returned, else a list of tuples of strings is returned.
+
+8. The | character is the pipe symbol and signifies options. It is also known as the bitwise operator
+A: Either/or
+
+9. The ? symbol signifies 0 or 1 matches (of preceding group)
+
+10. + = 1 or more matches, * is the wildcard operator - 0 or more
+
+11. {3} means match at least a length of 3. {3, 5} means match a length of 3 to 5
+
+12. \d = any digit, \w = any alphanumeric, \s = any whitespace
+
+13. \D = not a digit, \W = not alphanumeric, \S = not a whitespace
+
+14. .* means match length of anystring, .*? means match length of 1
+* = greedy match, ? = non-greedy match
+
+15. \d|\w | re.lowercase
+A: [0-9a-z]
+
+16. use re.I to make a case-insensitive match
+
+17. . matches any character except newline character. re.DOTALL matches all characters including newline characters
+
+18. X drummers, X pipers, five rings, X hens will be the return expression 
+
+19. re.VERBOSE allows you specify a regex over multiple lines, for easier readability
+
+20. (r'^\d{1,3}(,(\d{3})*$')
+
+21. (r'[A-Z]\w* (Watanbe))
+
+22. re.compile(r'(Alice|Bob|Carol) (eats|pets|throws) (apples|baseballs|cats).', re.I)

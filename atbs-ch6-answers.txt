@@ -1,0 +1,27 @@
+Chapter 6
+1. Escape characters are characters that allow you to ignore a special character
+
+A: characters in string values that would not be otherwise possible to type into code.
+
+2. \n represents the newline character and \t represents tab
+
+3. A \ character can be placed in a string as \\
+
+4. "A string with ' " This is valid because the string is intiated(?) with a double quote. Any single quotes will not close the string.
+
+5. Instead of writing a string with the \n character you could use triple-quotes and split the string over multiple lines, using the return key
+
+6. 'Hello, world!'[1] evaluates to 'e'
+[0:5] and [:5] evaluates to 'Hello'
+[3:] evaluates to 'lo, world!'
+
+7. 'Hello'.upper() evaluates to 'HELLO'
+'Hello'.upper().isupper() evaluates to True
+'Hello'.upper().lower() evaluates to 'hello'
+
+8. 'Remember, remember, the'.split() evaluates to ['Remember', 'remember', 'the']
+'-'.join('There can be only one.'.split()) evaluates to 'There-can-be-only-one.'
+
+9. .rjust(), .ljust(), .center()
+
+10. lstrip() or rstrip() can trim whitespace characters at the beginning or end of a string.

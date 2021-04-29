@@ -1,0 +1,9 @@
+Chapter 10 Questions
+
+1. The difference between shutil.copy() and shutil.copytree() is that copytree will also copy subdirectories and their contents, whereas shutil will only copy a single file.
+
+2. The function to rename files is shutil.move('file', 'new_name')
+
+3. In the send2trash module, files are sent to the 'bin' whereas in shutil, deletion is permanent.
+
+4. zipfile.ZipFile() is equivalent to file.open() method.

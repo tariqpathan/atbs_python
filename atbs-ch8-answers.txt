@@ -1,0 +1,15 @@
+Chapter 8 Questions
+
+1. PyInputPlus does not come with the Python standard library, it has to be installed
+
+2. import pyinputplus as pyip is done so that it is easier to read and write
+
+3. inputInt() checks that an integer number has been entered (no decimal value), whilst inputFloat() checks a decimal value has been entered, which could include an integer. Int returns an integer, Float returns a float.
+
+4. inputInt(min=0, max=99) validates for an integer input 0-99
+
+5. allow/blockRegexes are based a regex string to match against
+
+6. The input parameter limit=3 allows 3 input attempts after which is raises a RetryLimitException
+
+7. inputStr(limit=3, default='hello') allows 3 input attempts for a string after which it returns 'hello'

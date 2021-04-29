@@ -1,0 +1,18 @@
+Practice Questions
+
+1. The code for an empty dictionary looks like {}
+
+2. {'foo': 42}
+
+3. A dictionary has a pair of key-values, values are accessed via keys. It is unordered and not indexed. Lists contain values only, separated with a comma. They are indexed and can be accessed using index notation.
+
+4. For a dictionary {'bar': 100}, if spam['foo'] is entered, then a KeyError is generated.
+
+5/6. spam = {'key':'value'}. 'cat' in spam will evaluate to True only if 'cat' is one of the keys and is the same as 'cat' in spam.keys(). 'cat' in spam.values() will evaluate to True only if 'cat' is one of the values.
+
+7. if 'color' not in spam:
+	spam['color'] = 'black'
+This can be written more succinctly using spam.setdefault('color', 'black')
+
+8. The pprint module can be imported and pprint.pprint() can be used to print dictionary values.
+ 
